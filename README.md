@@ -34,6 +34,8 @@ Recording, transcription, speaker recognition, and notes all run on your Mac. Yo
 
 Quit Bekitzur, then delete `~/Applications/Bekitzur.app` and `~/Library/Application Support/Bekitzur` (your Conversations and the models).
 
-## Models
+## License and credits
 
-The installer downloads each model from its publisher on Hugging Face, under that publisher's license: ivrit.ai's Whisper large-v3-turbo for Hebrew, OpenAI's Whisper large-v3-turbo for English, and Google's Gemma 4 26B-A4B for the notes. FluidAudio's speaker models download on first use.
+Bekitzur is free to use under the [MIT License](LICENSE). It's built on [whisper.cpp](https://github.com/ggml-org/whisper.cpp) and [llama.cpp](https://github.com/ggml-org/llama.cpp) (MIT) and [FluidAudio](https://github.com/FluidInference/FluidAudio) (Apache 2.0), whose licenses come with the app, in `Bekitzur.app/Contents/Resources/Acknowledgements.txt`.
+
+The installer downloads each model from its publisher on Hugging Face, under that publisher's license: [ivrit.ai's Whisper large-v3-turbo](https://huggingface.co/ivrit-ai/whisper-large-v3-turbo-ggml) for Hebrew (Apache 2.0), [OpenAI's Whisper large-v3-turbo](https://huggingface.co/openai/whisper-large-v3-turbo) for English (MIT), and [Google's Gemma 4 26B-A4B](https://huggingface.co/google/gemma-4-26B-A4B-it-qat-q4_0-gguf) for the notes (Apache 2.0). FluidAudio downloads the speaker models on first use: [pyannote's community-1](https://huggingface.co/pyannote/speaker-diarization-community-1) (CC BY 4.0), [NVIDIA's Streaming Sortformer](https://huggingface.co/nvidia/diar_streaming_sortformer_4spk-v2.1) (NVIDIA Open Model License), and [Silero VAD](https://github.com/snakers4/silero-vad) (MIT), all converted to Core ML by Fluid Inference.
