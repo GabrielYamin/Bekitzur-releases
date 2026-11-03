@@ -30,6 +30,10 @@ Versions before 0.2.0 can't update themselves, so update those once by hand: dow
 
 Recording, transcription, speaker recognition, and notes all run on your Mac. Your audio, transcripts, and notes stay in `~/Library/Application Support/Bekitzur`. Bekitzur goes online only to download its models and to check this page for new versions.
 
+## Disclaimer
+
+Bekitzur is provided as is, without warranty of any kind, and its authors aren't liable for anything that comes of using it, like a recording that's lost or incomplete, a mistake in a transcript, the speakers, or the notes, or a decision made from them. Everything runs on your Mac: your recordings, transcripts, notes, and voices stay on it, and Bekitzur goes online only to download its models and updates. You're responsible for telling the people you record, and for following the law and your organization's rules on recording. The [MIT License](LICENSE) has the full terms.
+
 ## Remove
 
 Quit Bekitzur, then delete `~/Applications/Bekitzur.app` and `~/Library/Application Support/Bekitzur` (your Conversations and the models).
