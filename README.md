@@ -4,7 +4,7 @@ Bekitzur records your meetings on your Mac and writes the notes: a transcript in
 
 ## What you need
 
-- A Mac with Apple silicon (M1 or later) and at least 32 GB of memory
+- A Mac with Apple silicon (M1 or later) and at least 32 GB of memory. On a Mac with less, Bekitzur tells you: with 24 GB, writing the notes may be slow or fail; with less, it doesn't download its models.
 - macOS 26 or later
 - About 20 GB of free disk space, for the models
 
